@@ -1,0 +1,25 @@
+{
+  "name": "gearbest-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "koa": "^2.6.2",
+    "koa-body": "^4.0.4",
+    "koa-router": "^7.4.0",
+    "node-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-async-to-generator": "^7.1.0",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.18.6"
+  }
+}
